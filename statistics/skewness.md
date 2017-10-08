@@ -1,2 +1,0 @@
-- sample skewness(less robust)
-- Pearson's median skewness(robust)
