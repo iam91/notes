@@ -9,3 +9,11 @@
  - not robust in the presence of outliers
 - Spearman's rank correlation
  - mitigate the effect of outliers and skewed distributions
+
+--
+
+- Correlation Coefficient
+ - restricted to a linear relationship
+- Coefficient of Determination
+ - can be used for nonlinear relationships
+ - for relationships having two or more independent variables
