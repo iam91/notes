@@ -18,3 +18,4 @@ chi-squared statistic
 ```python
 test_stat = sum((observed - expected)**2 / expected)
 ```
+#
