@@ -2,7 +2,7 @@ import numpy as np
 from scipy import stats 
 
 alpha = 0.05
-prob = np.ones(4) * 0.25
+prob = np.full(4, 0.25)
 f = np.array([85, 95, 50, 70])
 
 e = f.sum() * prob
