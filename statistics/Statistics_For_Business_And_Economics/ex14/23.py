@@ -43,8 +43,8 @@ print 's_b1: {:3f}'.format(s_b1)
 print '-' * 30
 # d.
 print 'd.'
-t = b1 / s_b1
-p = stats.t.sf(t, (n - 2))
+t = np.abs(b1 / s_b1)
+p = stats.t.sf(t, (n - 2)) + stats.t.cdf(-t, (n - 2))
 print 't: {:3f}, p: {:3f}'.format(t, p)
 if p < alpha:
     print 'reject h0, sig'
